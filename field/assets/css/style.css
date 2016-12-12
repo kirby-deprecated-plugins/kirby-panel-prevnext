@@ -1,0 +1,32 @@
+.plugin-prevnext {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.plugin-prevnext a {
+	margin: .5em;
+}
+
+.plugin-prevnext .prev i {
+	margin-right: .5em;
+}
+.plugin-prevnext .next i {
+	margin-left: .5em;
+}
+
+.plugin-prevnext a {
+	color: #777;
+}
+
+.plugin-prevnext a:hover {
+	color: #000;
+}
+
+.plugin-prevnext .prev {
+	margin-right: .5em;
+}
+
+.plugin-prevnext .next {
+	margin-left: .5em;
+}
