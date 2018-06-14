@@ -18,11 +18,11 @@ if( $page_obj->siblings()->count() > 1 ) {
 	<div class="plugin-prevnext">
 		<a class="prev" href="<?php echo panel()->urls()->index() . '/pages/' . $prev->id() . '/edit'; ?>">
 			<i class="fa fa-chevron-left" aria-hidden="true"></i>
-			<?php echo $prev->title(); ?>
+			<?php echo $prev->title()->excerpt(50); ?>
 		</a>
 
 		<a class="next" href="<?php echo panel()->urls()->index() . '/pages/' . $next->id() . '/edit'; ?>">
-			<?php echo $next->title(); ?>
+			<?php echo $next->title()->excerpt(50); ?>
 			<i class="fa fa-chevron-right" aria-hidden="true"></i>
 		</a>
 	</div>
